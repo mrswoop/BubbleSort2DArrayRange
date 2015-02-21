@@ -3,7 +3,7 @@ Example program implementing Bubble Sort on a specified range in a 2D object arr
 This example implements a traditional bubblesort algorithm (courtesy of http://sorting-algorithms.com/bubble-sort).
 
 ```Java
-for i = 1:n,<br>
+for i = 1:n,
    swapped = false
    for j = n:i+1, 
        if a[j] < a[j-1], 
