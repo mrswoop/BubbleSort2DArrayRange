@@ -1,8 +1,9 @@
-# BubbleSort2DArrayRange
+#### BubbleSort2DArrayRange
 Example program implementing Bubble Sort on a specified range in a 2D object array.
 This example implements a traditional bubblesort algorithm (courtesy of http://sorting-algorithms.com/bubble-sort).
 
-for i = 1:n,
+```Java
+for i = 1:n,<br>
    swapped = false
    for j = n:i+1, 
        if a[j] < a[j-1], 
@@ -11,6 +12,7 @@ for i = 1:n,
    → invariant: a[1..i] in final position
    break if not swapped
 end
+```
  
 It translates "j" into a meaningful 2D array address using integer division and modulus operations.
 
