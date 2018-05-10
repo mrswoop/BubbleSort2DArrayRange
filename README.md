@@ -1,6 +1,6 @@
 #### BubbleSort2DArrayRange
 Example program implementing Bubble Sort on a specified range in a 2D object array.
-This example implements a traditional bubblesort algorithm (courtesy of http://sorting-algorithms.com/bubble-sort).
+This example implements a traditional bubblesort algorithm.
 
 ```Java
 for i = 1:n,
